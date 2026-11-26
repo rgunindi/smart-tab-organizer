@@ -11,6 +11,7 @@ Smart Tab Organizer helps you organize browser tabs into color-coded tab groups,
 - **Open tab titles and URLs:** Read locally in your browser only when you inspect stats, trigger grouping/duplicate cleanup, sleep inactive tabs, or save a workspace.
 - **Tab activity timestamps:** Stored locally to detect tabs that have been inactive for 30+ minutes when the optional Auto-Sleep RAM Saver is enabled.
 - **Custom rules, workspaces, and preferences:** Stored locally in your browser via `chrome.storage.local`.
+- **Optional form protection check:** If you explicitly opt into "Protect tabs with unsaved forms when sleeping", the extension checks locally whether a page has modified input fields (returning only a yes/no boolean) before sleeping that tab. Input text values are never read, stored, or transmitted.
 - **Optional Pro license key:** Stored locally if you activate a Pro license.
 
 ## How Data Is Stored and Transmitted
